@@ -4,63 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf3bb25e-5e62-4509-8d19-a776685b1b52" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../ungDungChuyenDoiTienTe/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ungDungChuyenDoiTienTe/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ungDungChuyenDoiTienTe/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/DictionaryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/Dictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/result.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/[Thực hành] Tạo ứng dụng Spring Greeting/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/[Thực hành] Tạo ứng dụng Spring Greeting/.gradle/7.1/dependencies-accessors/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/[Thực hành] Tạo ứng dụng Spring Greeting/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/[Thực hành] Tạo ứng dụng Spring Greeting/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/[Thực hành] Tạo ứng dụng Spring Greeting/.gradle/7.1/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/[Thực hành] Tạo ứng dụng Spring Greeting/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/[Thực hành] Tạo ứng dụng Spring Greeting/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/[Thực hành] Tạo ứng dụng Spring Greeting/.gradle/7.1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/[Thực hành] Tạo ứng dụng Spring Greeting/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/[Thực hành] Tạo ứng dụng Spring Greeting/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/[Thực hành] Tạo ứng dụng Spring Greeting/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/[Thực hành] Tạo ứng dụng Spring Greeting/.gradle/checksums/checksums.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/[Thực hành] Tạo ứng dụng Spring Greeting/.gradle/checksums/md5-checksums.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/[Thực hành] Tạo ứng dụng Spring Greeting/.gradle/checksums/sha1-checksums.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/[Thực hành] Tạo ứng dụng Spring Greeting/.gradle/vcs-1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/[Thực hành] Tạo ứng dụng Spring Greeting/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/[Thực hành] Tạo ứng dụng Spring Greeting/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/[Thực hành] Tạo ứng dụng Spring Greeting/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/[Thực hành] Tạo ứng dụng Spring Greeting/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/[Thực hành] Tạo ứng dụng Spring Greeting/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/[Thực hành] Tạo ứng dụng Spring Greeting/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/[Thực hành] Tạo ứng dụng Spring Greeting/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/[Thực hành] Tạo ứng dụng Spring Greeting/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/[Thực hành] Tạo ứng dụng Spring Greeting/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/[Thực hành] Tạo ứng dụng Spring Greeting/build/classes/java/main/com/codegym/controller/GreetingController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/[Thực hành] Tạo ứng dụng Spring Greeting/build/libs/[TH] - Create Spring Greeting-1.0-SNAPSHOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/[Thực hành] Tạo ứng dụng Spring Greeting/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/[Thực hành] Tạo ứng dụng Spring Greeting/build/tmp/war/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/[Thực hành] Tạo ứng dụng Spring Greeting/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/[Thực hành] Tạo ứng dụng Spring Greeting/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/[Thực hành] Tạo ứng dụng Spring Greeting/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/[Thực hành] Tạo ứng dụng Spring Greeting/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/[Thực hành] Tạo ứng dụng Spring Greeting/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/[Thực hành] Tạo ứng dụng Spring Greeting/src/main/java/com/codegym/controller/GreetingController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/[Thực hành] Tạo ứng dụng Spring Greeting/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/[Thực hành] Tạo ứng dụng Spring Greeting/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/[Thực hành] Tạo ứng dụng Spring Greeting/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/[Thực hành] Tạo ứng dụng Spring Greeting/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/[Thực hành] Ứng dụng quản lý danh sách khách hàng/customer/src/main/webapp/WEB-INF/app-conf.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/[Thực hành] Ứng dụng quản lý danh sách khách hàng/customer/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/[Thực hành] Ứng dụng quản lý danh sách khách hàng/customer/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/[Thực hành] Ứng dụng quản lý danh sách khách hàng/untitled/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/[Thực hành] Ứng dụng quản lý danh sách khách hàng/untitled/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/[Thực hành] Ứng dụng quản lý danh sách khách hàng/untitled/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1. Tổng quan Spring MVC/Thực Hành/[Thực hành] Ứng dụng quản lý danh sách khách hàng/untitled/.idea/workspace.xml" beforeDir="false" />
-    </list>
+    <list default="true" id="bf3bb25e-5e62-4509-8d19-a776685b1b52" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -208,6 +152,7 @@
       <updated>1646021302325</updated>
       <workItem from="1646021303824" duration="2866000" />
       <workItem from="1646030826870" duration="6246000" />
+      <workItem from="1646098264398" duration="660000" />
     </task>
     <servers />
   </component>
