@@ -16,7 +16,7 @@ public class SandwichController {
     }
 
     @RequestMapping("/save")
-    public ModelAndView save(@RequestParam(value = "condiment", defaultValue = "Không có topping") String[] condiment, Model model) {
+    public ModelAndView save(@RequestParam(defaultValue = "Không có topping") String[] condiment, Model model) {
             ModelAndView modelAndView = new ModelAndView("result", "message", condiment);
                 return modelAndView;
         }

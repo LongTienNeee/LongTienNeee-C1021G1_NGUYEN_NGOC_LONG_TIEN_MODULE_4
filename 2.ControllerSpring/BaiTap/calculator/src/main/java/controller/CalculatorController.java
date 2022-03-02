@@ -5,11 +5,14 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import service.ICalculator;
+import service.impl.CalculatorImpl;
 
 import java.util.regex.Matcher;
 
 @Controller
 public class CalculatorController {
+    private static ICalculator calculator = new CalculatorImpl();
 
     @GetMapping("/calculator")
     public String getCaculatorPage() {
@@ -17,9 +20,9 @@ public class CalculatorController {
     }
 
     @PostMapping("/calculate")
-    public String calculate(@RequestParam("value1") double value1,
-                            @RequestParam("value2") double value2,
-                            @RequestParam("button") String button,
+    public String calculate(@RequestParam double value1,
+                            @RequestParam double value2,
+                            @RequestParam String button,
                             Model model){
 //        System.out.println(value1);
 //        System.out.println(value2);
@@ -27,19 +30,19 @@ public class CalculatorController {
     double result = 0;
         switch (button){
             case "+":
-                result = value1 + value2;
+                result = calculator.add(value1,value2);
                 break;
             case "-":
-                result = value1 - value2;
+                result = calculator.sub(value1,value2);
                 break;
             case "*":
-                result = value1 * value2;
+                result = calculator.mul(value1,value2);
                 break;
             case "/":
                 if(value2 == 0){
                     model.addAttribute("error", "Lỗi : Không chia được cho số không");
                 } else {
-                    result = value1 / value2;
+                    result = calculator.div(value1,value2);
                 }
                 break;
         }
