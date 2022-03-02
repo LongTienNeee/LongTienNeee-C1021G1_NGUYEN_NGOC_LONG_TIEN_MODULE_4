@@ -24,9 +24,7 @@ public class CalculatorController {
                             @RequestParam double value2,
                             @RequestParam String button,
                             Model model){
-//        System.out.println(value1);
-//        System.out.println(value2);
-//        System.out.println(button);
+
     double result = 0;
         switch (button){
             case "+":
