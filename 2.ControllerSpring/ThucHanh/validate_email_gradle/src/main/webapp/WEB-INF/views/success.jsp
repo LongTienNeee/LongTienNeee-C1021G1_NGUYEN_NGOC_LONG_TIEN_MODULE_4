@@ -9,7 +9,6 @@
 <html>
 <head>
     <title>Kết quả</title>
-</head>
 <body>
 <fieldset>
     <legend>Kết quả</legend>

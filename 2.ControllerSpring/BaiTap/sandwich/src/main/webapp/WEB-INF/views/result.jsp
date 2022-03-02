@@ -17,7 +17,7 @@
     <table>
         <tr><td>Chiếc bánh Sandwich này có các popping :</td></tr>
         <tr>
-            <td><c:forEach items="list" var="${list}">${list}</c:forEach></td>
+            <td style="color: darkorange"><c:forEach items="${message}" var="message"> ${message}, </c:forEach></td>
         </tr>
     </table>
 

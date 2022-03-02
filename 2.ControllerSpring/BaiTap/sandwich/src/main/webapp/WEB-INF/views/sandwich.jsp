@@ -15,11 +15,11 @@
     <table>
         <th colspan="5">Sandwich Condiments</th>
         <tr>
-            <td><input type="checkbox" name="condiment" value="Lettuce">Lettuce</td>
-            <td><input type="checkbox" name="condiment" value="Tomato">Tomato</td>
-            <td><input type="checkbox" name="condiment" value=Mustard"" >Mustard</td>
-            <td><input type="checkbox" name="condiment" value="Sprouts">Sprouts</td>
-            <td><input type="checkbox" name="condiment" value="Cucumber">Cucumber</td>
+            <td><label><input type="checkbox" name="condiment" value="Lettuce">Lettuce</label></td>
+            <td><label><input type="checkbox" name="condiment" value="Tomato">Tomato</label></td>
+            <td><label><input type="checkbox" name="condiment" value="Mustard" >Mustard</label></td>
+            <td><label><input type="checkbox" name="condiment" value="Sprouts">Sprouts</label></td>
+            <td><label><input type="checkbox" name="condiment" value="Cucumber">Cucumber</label></td>
         </tr>
         <tr>
             <td><hr></td>
