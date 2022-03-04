@@ -14,7 +14,7 @@
 <body>
 <fieldset>
     <legend>Setting</legend>
-    <form:form modelAttribute="mail">
+    <form:form modelAttribute="mail" action="/save" method="post">
         <table>
             <tr>
                 <td><form:label path="language"><strong>Language</strong></form:label></td>
@@ -38,11 +38,18 @@
             </tr>
             <tr>
                 <td><form:label path="spamsFilter"><strong>Spams Filter</strong></form:label></td>
-                <td><form:checkbox path="spamsFilter"/>Enable spams filter</td>
+                <td><form:checkbox value="" path="spamsFilter"/>Enable spams filter</td>
             </tr>
             <tr>
                 <td><form:label path="signature"><strong>Signature</strong></form:label></td>
                 <td><form:textarea path="signature"></form:textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Update">
+                    <input type="reset" value="Cancel">
+                </td>
             </tr>
         </table>
     </form:form>
