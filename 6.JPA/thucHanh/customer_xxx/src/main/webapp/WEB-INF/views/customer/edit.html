@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:form="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Customer Page</title>
+</head>
+<body>
+<a href="/customer">Back to customer List</a>
+<fieldset>
+    <legend>Edit customer</legend>
+    <form th:action="@{/edit}" th:object="${customer}" method="post">
+        <input th:type="hidden" name="id" th:field="*{id}">
+    <table>
+        <tr>
+            <td>First Name:</td>
+            <td th:type="text" th:field="*{firstName}"></td>
+        </tr>
+        <tr>
+            <td>Last Name:</td>
+            <td th:type="text" th:field="*{lastName}"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Update"></td>
+        </tr>
+    </table>
+    </form>
+</fieldset>
+</body>
+</html>
