@@ -37,9 +37,7 @@ public class CustomerController {
     @PostMapping("/create")
     public String createNewCustomer(Customer customer, Model model){
         customerService.save(customer);
-//        ModelAndView modelAndView = new ModelAndView("customer/list");
         model.addAttribute("customer" , new Customer());
-//        modelAndView.addObject("message", "Thêm thành công 1 khách hàng");
         return "redirect:/customer";
     }
 
