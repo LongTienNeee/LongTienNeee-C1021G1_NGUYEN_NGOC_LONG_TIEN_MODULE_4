@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Create</title>
+</head>
+<body>
+<fieldset>
+    <legned>Create Form</legned>
+    <form th:action="@{/create}" th:object="${customer}" method ="post">
+        <table>
+            <tr>
+                <td>Name</td>
+                <td><input th:type="text" th:field="*{name}"></td>
+            </tr>
+            <tr>
+                <td>Age</td>
+                <td><input th:type="text" th:field="*{age}"></td>
+            </tr>
+            <tr>
+                <td>Country</td>
+                <td><input th:type="text" th:field="*{province}"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Create"></td>
+            </tr>
+        </table>
+    </form>
+</fieldset>
+
+</body>
+</html>
