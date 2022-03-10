@@ -14,7 +14,7 @@ import javax.validation.Valid;
 
 @Controller
 public class NumberPhoneController {
-    @GetMapping("")
+    @GetMapping
     public ModelAndView getHome(){
         ModelAndView modelAndView = new ModelAndView("/home");
         modelAndView.addObject("phoneNumberDto", new PhoneNumberDto());

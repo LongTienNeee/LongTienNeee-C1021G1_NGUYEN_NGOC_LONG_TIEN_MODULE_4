@@ -27,7 +27,7 @@ public class AppConfiguration extends WebMvcConfigurerAdapter implements Applica
     @Bean
     public MessageSource messageSource() {
         ResourceBundleMessageSource messageSource = new ResourceBundleMessageSource();
-        messageSource.setBasenames("validation");
+        messageSource.setBasenames("validation-numberPhone");
         return messageSource;
     }
 

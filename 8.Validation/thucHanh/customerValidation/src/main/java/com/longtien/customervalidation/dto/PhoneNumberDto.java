@@ -5,8 +5,22 @@ import org.springframework.validation.Errors;
 import org.springframework.validation.ValidationUtils;
 import org.springframework.validation.Validator;
 
-public class PhoneNumberDto implements Validator {
+public class PhoneNumberDto implements Validator{
     private String numberPhone;
+
+    public PhoneNumberDto(String numberPhone) {
+        this.numberPhone = numberPhone;
+    }
+
+    public PhoneNumberDto(){}
+
+    public String getNumberPhone() {
+        return numberPhone;
+    }
+
+    public void setNumberPhone(String numberPhone) {
+        this.numberPhone = numberPhone;
+    }
 
     @Override
     public boolean supports(Class<?> clazz) {
@@ -15,8 +29,8 @@ public class PhoneNumberDto implements Validator {
 
     @Override
     public void validate(Object target, Errors errors) {
-        PhoneNumber phoneNumber = (PhoneNumber) target;
-        String numberPhone = phoneNumber.getNumberPhone();
+        PhoneNumberDto phoneNumberDto = (PhoneNumberDto) target;
+        String numberPhone = phoneNumberDto.getNumberPhone();
         ValidationUtils.rejectIfEmpty(errors, "numberPhone", "number.empty");
         if(numberPhone.length() > 11 || numberPhone.length()<10){
             errors.rejectValue("numberPhone" , "number.length");
