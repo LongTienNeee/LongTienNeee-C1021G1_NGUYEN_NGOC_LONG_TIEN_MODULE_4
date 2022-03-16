@@ -1,2 +1,7 @@
-package com.longtien.repository;public interface ICustomerRepository {
+package com.longtien.repository;
+
+import com.longtien.model.Customer;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ICustomerRepository extends JpaRepository<Customer, Long> {
 }
