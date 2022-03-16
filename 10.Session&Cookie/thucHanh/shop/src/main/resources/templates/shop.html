@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http//:www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Trang chủ</title>
+</head>
+<body>
+<h1 align="center" STYLE="font-family:VnHelvetInsH">Yobato</h1>
+<p align="center"><a href="/shopping-cart">Vào giỏ hàng</a></p>
+<table align="center">
+  <tr>
+    <td>Hình Ảnh</td>
+    <td>Tên Sản Phẩm</td>
+    <td>Giá</td>
+    <td>Thêm vào giỏ hàng</td>
+  </tr>
+
+  <th:block th:each="products : ${product}">
+    <tr>
+      <div class="card" style="width: 18rem;">
+      <td><img th:src="${products.img}" alt="Chưa có hình ảnh" style="width: 40% ; height: 50%"></td>
+      <td th:text="${products.nameProduct}"></td>
+      <td th:text="${products.priceProduct + '$'}"></td>
+      <td><a th:href="@{/add/__${products.id}__(action='list')}"><p align="center">Dô Giỏ</p></a></td>
+      </div>
+    </tr>
+  </th:block>
+
+</table>
+</body>
+</html>
