@@ -22,7 +22,7 @@ public class CustomerController {
 
     @GetMapping("/link")
     public String gotoLink(){
-            return "redirect:https://vlxx.sex/xxx/";
+        return "redirect:https://songkhoemoingay.com/nhung-loi-chuc-suc-khoe-cho-nguoi-benh/";
     }
 
 }
