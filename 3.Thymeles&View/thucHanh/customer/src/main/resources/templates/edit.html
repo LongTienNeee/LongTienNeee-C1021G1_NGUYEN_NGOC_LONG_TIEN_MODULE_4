@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Sửa khách hàng</title>
+</head>
+<body>
+<h1 align="center">Sửa Khách hàng</h1>
+<a href="/edit">Trang chủ</a>
+<fieldset>
+    <legend align="center">Thông tin</legend>
+    <form th:action="@{/delete}" th:object="${customers}" method="post">
+        <table align="center">
+            <tr>
+                <th>Tên :</th>
+                <td><input th:type="text" th:value="${customers.name}" ></td>
+            </tr>
+            <tr>
+                <th>Tuổi</th>
+                <td><input th:type="text" th:value="${customers.age}"></td>
+            </tr>
+            <tr>
+                <th>Địa chỉ</th>
+                <td><input th:type="text" th:value="${customers.country}"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    Bạn có sửa đổi không :
+                    <button type="submit">Có</button>
+                    <button href="/customer">Không</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</fieldset>
+</body>
+</html>

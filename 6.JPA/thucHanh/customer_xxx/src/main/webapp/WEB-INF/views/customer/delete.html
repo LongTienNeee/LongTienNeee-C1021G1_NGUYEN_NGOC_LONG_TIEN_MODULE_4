@@ -8,7 +8,7 @@
 <a href="/customer">Back to customer list</a>
 <fieldset>
     <legend>Delete</legend>
-    <form action="@{/delete}" th:object="${customer}" method="post">
+    <form th:action="@{/delete}" th:object="${customer}" method="post">
         <table>
             <tr>
                 <td>First Name :</td>

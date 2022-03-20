@@ -25,10 +25,12 @@ public class Customer {
         this.id = id;
         this.name = name;
         this.age = age;
+
     }
     public Customer(String name, int age) {
         this.name = name;
         this.age = age;
+
     }
 
     public void setId(Long id) {

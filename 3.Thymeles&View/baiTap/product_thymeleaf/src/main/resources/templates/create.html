@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Tạo 1 sản phẩm</title>
+</head>
+<body>
+<h1 align="center">Tạo mới 1 sản phẩm trôi nổi</h1>
+<fieldset>
+    <legend align="center">Tạo mới</legend>
+    <form th:action="@{/create}" th:object="${product}" method="post">
+        <table align="center">
+            <tr>
+                <th>Tên sản phẩm</th>
+                <td><input th:type="text" th:field="*{name}"></td>
+            </tr>
+            <tr>
+                <th>Giá sản phẩm</th>
+                <td><input th:type="text" th:field="*{price}"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Tạo"></td>
+            </tr>
+        </table>
+
+    </form>
+</fieldset>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Xóa Sản Phẩm</title>
+</head>
+<body>
+<h1 align="center">Xóa sản phẩm trôi nổi</h1>
+<a href="/product">Trang chủ</a>
+<fieldset>
+    <legend align="center">Thông tin</legend>
+    <form action="/delete" th:object="${product}" method="post">
+        <table align="center">
+            <tr>
+                <th>ID</th>
+                <td th:text="${product.id}"></td>
+            </tr>
+            <tr>
+                <th>Tên sản phẩm</th>
+                <td th:text="${product.name}"></td>
+            </tr>
+            <tr>
+                <th>Giá</th>
+                <td th:text="${product.price}"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    Bạn có muốn xóa sản phẩm này không
+                  <input type="submit" value="Có">
+                    <button><a href="/product">Không</a></button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</fieldset>
+</body>
+</html>

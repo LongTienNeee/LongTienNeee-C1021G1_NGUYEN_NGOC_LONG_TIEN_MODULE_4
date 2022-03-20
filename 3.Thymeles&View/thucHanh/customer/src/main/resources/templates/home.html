@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Customer Home</title>
+</head>
+<body>
+<h1 align="center">Trang Khách Hàng</h1>
+<a href="/create">Tạo 1 Khách hàng</a>
+<table align="center">
+    <tr>
+        <th>Id</th>
+        <th>Tên</th>
+        <th>Tuổi</th>
+        <th>Địa chỉ</th>
+        <th ></th>
+    </tr>
+    <th:block th:each="customers : ${customer}">
+        <tr>
+            <td th:text="${customers.id}"></td>
+            <td th:text="${customers.name}"></td>
+            <td th:text="${customers.age}"></td>
+            <td th:text="${customers.country}"></td>
+            <td><a th:href="@{/edit/__${customers.id}__}">Sửa</a></td>
+            <td colspan="2"><a th:href="@{/delete/__${customers.id}__}">Xóa</a></td>
+        </tr>
+    </th:block>
+</table>
+</body>
+</html>

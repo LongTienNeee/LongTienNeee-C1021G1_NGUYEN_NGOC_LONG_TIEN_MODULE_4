@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Sửa Sản Phẩm</title>
+</head>
+<body>
+<h1 align="center">Sửa sản phẩm trôi nổi</h1>
+<a href="/product">Trang chủ</a>
+<fieldset>
+    <legend align="center">Thông tin</legend>
+    <form th:action="@{/edit}" th:object="${product}" method="post">
+        <table align="center">
+            <tr>
+                <th>Tên Sản phẩm</th>
+                <td><input th:type="text" th:value="${product.name}"></td>
+            </tr>
+            <tr>
+                <th>Giá</th>
+                <td><input th:type="text" th:value="${product.price}"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    Bạn có muốn Sửa sản phẩm này không
+                    <input type="submit" value="Có">
+                    <button><a href="/product">Không</a></button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</fieldset>
+</body>
+</html>

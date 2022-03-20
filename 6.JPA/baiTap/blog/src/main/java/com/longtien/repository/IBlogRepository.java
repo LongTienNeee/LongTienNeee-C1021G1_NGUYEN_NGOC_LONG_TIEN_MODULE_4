@@ -9,6 +9,5 @@ public interface IBlogRepository {
     void save(Blog blog);
     void delete(long id);
     Blog findById(long id);
-
     void edit(long id);
 }
